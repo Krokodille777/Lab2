@@ -13,19 +13,19 @@ int main(){
         cout << "N must be greater than or equal to 1";
     } else {
         while (n <= N) {
-            s += n;  // Sum of all numbers
+            s += n;  
             
-            // Check if n is even or odd and add accordingly
+            
             if (n % 2 == 0) {
-                se += n;  // Even sum
+                se += n;  
             } else {
-                so += n;  // Odd sum
+                so += n; 
             }
             
-            n++;  // Increment the counter
+            n++;  
         }
         
-        // Output the results
+        
         cout << "Sum of all numbers = " << s;
         cout << "\nSum of even numbers = " << se;
         cout << "\nSum of odd numbers = " << so;
@@ -33,7 +33,7 @@ int main(){
 
         ss = s + se + so;
         div = ss/2;
-        cout<<"ss ="<<ss<<"\t div = "<<div;
+        cout<<"\n ss ="<<ss<<"\t div = "<<div;
     }
 
     return 0;
